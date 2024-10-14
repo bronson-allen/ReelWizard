@@ -1,0 +1,10 @@
+opencv-python
+elevenlabs
+captacity
+openai
+pydub
+numpy
+openai-whisper
+ffmpeg
+opencv-python
+python-dotenv
