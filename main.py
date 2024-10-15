@@ -36,7 +36,7 @@ if not os.path.exists(basedir):
 print("Generating script...")
 
 response = client.chat.completions.create(
-    model="gpt-4",
+    model="gpt-4o",
     messages=[
         {
             "role": "system",
