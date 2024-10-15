@@ -27,7 +27,7 @@ def create_from_data(data, output_dir):
         image_name = f"image_{image_number}.webp"
         generate(element["description"] + ". Vertical image, fully filling the canvas.", os.path.join(output_dir, image_name))
 
-def generate(prompt, output_file, size="1024x1792"):
+def generate(prompt, output_file, size="810x1440"):
     response = openai.images.generate(
         model="dall-e-3",
         prompt=prompt,
